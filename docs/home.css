@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+header nav {
+    display: flex;
+    justify-content: end;
+    padding: 25px 25px 0 0;
+    background-color: #170101;
+    height: 70px;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    list-style: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+header nav ul li a:hover {
+    transition: 0.4s;
+    color: #666;
+}
+.container {
+    background-image: url(sun.jpg);
+    background-size:auto;
+    background-position-y: center;
+    height: calc(100vh - 70px);
+}
+.container .shadow {
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
