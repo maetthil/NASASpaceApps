@@ -30,9 +30,41 @@ header nav ul li a:hover {
 }
 .container {
     background-image: url(sun.jpg);
-    background-size:contain;
-    background-position-y: center;
+    background-size:cover;
+    background-position: center;
     height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+}
+.container .title-motto {
+    color: #fff;
+    position: absolute;    
+    height: 100%;
+    display: flex;
+    align-content: center;
+    margin-left: 150px;
+    padding-top: 160px;
+    flex-direction: column;
+}
+.container .title-motto .title {
+    font-size: 40px;
+    text-align: center;
+}
+.container .title-motto .motto {
+    margin-top: 20px;
+    font-size: 34px;
+    text-align: center;
+}
+.container a {
+    margin-top: 130px;
+    margin-left: 36px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #380404;
+    border-radius: 16px;
+    position: absolute;
 }
 .container .shadow {
     background-color: rgb(0, 0, 0, 0.6);
