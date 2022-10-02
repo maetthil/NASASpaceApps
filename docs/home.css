@@ -30,7 +30,7 @@ header nav ul li a:hover {
 }
 .container {
     background-image: url(sun.jpg);
-    background-size:cover;
+    background-size:contain;
     background-position-y: center;
     height: calc(100vh - 70px);
 }
