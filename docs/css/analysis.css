@@ -39,8 +39,9 @@ header nav ul li a:hover {
 .container .subtitles {
     position: absolute;
     top: 250px;
-    left: 60px;
+    left: 10px;
     color: #fff;
+    width: 10%;
 }
 .container .graph {
     width: 60%;
